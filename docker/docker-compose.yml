@@ -7,7 +7,7 @@ services:
             - /opt/mongodb:/data/db
 
     pritunl:
-        image: GoogleAUssie/Pritunl-Fake-API:0.1
+        image: googleaussie/pritunl:0.1
         #realsimonmicro/pritunl-with-fake-api:latest
         # Use the following to build the image from source.
         build:
